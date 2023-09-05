@@ -9,7 +9,7 @@ function App() {
     <>
     <h1>Custom hooks</h1>
     <section>
-      <h3>To do API; useFetch hook</h3>
+      <h3>To do API; useFetch custom hook</h3>
       {data &&
       data.map((item) => {
         return <p key={item.id}>{item.title}</p>
